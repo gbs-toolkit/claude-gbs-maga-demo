@@ -23,7 +23,10 @@ See [`DESIGN.md`](DESIGN.md) for branching tree and ending conditions.
    /plugin install gbs@gbs-toolkit
    ```
 2. **Initialise the GB Studio project** (one-time, GUI):
-   - GB Studio → **New Project** → template: *Adventure* → save into `gbsproj/maga/` of this repo.
+   - Open GB Studio → **New Project**.
+   - **Project name**: `maga`. **Folder**: this repo's `gbsproj/`. **Template**: `Blank` (or `Sample Project` if Blank isn't offered — Claude clears the template's default scene in step 11 of the build sequence).
+   - Click **Create Project**, then close GB Studio. No GUI editing needed; the rest happens through MCP tools.
+   - **Note**: "Adventure" in this demo is a *scene type*, not a project template. Claude sets it per-scene via `create_scene(..., type="ADVENTURE")`.
 3. **Download the source photo** (kept out of git for licensing reasons):
    ```bash
    ./scripts/download_assets.sh

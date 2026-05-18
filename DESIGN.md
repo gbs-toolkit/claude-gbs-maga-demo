@@ -224,7 +224,7 @@ All lines re-counted after the above re-splits. **No line exceeds 18 chars.** An
 
 > **Pre-flight**:
 > 1. The user must have run `./scripts/download_assets.sh` (verify `assets/source/trump.jpg` exists).
-> 2. The user must have created the GB Studio project in `gbsproj/maga/` via the GUI (template: *Adventure*).
+> 2. The user must have created the GB Studio project in `gbsproj/maga/` via the GUI. Project name `maga`, **template `Blank` or `Sample Project`** (any is fine — Claude clears the default scene in step 11). "ADVENTURE" is a per-scene type, not a project template; do not look for it in the New Project dialog.
 > 3. The user's `.mcp.json` must point `GBS_PROJECT_ROOT` at `./gbsproj/maga`.
 > 4. Load skills: `safety-rules`, `gbvm-scripting`, `dialogue-and-ui`.
 
