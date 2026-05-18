@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "gbs": {
+      "command": "npx",
+      "args": ["-y", "@gbs-toolkit/mcp-server"],
+      "env": {
+        "GBS_PROJECT_ROOT": "./gbsproj/maga",
+        "SPRITE_PROVIDER": "openai",
+        "OPENAI_API_KEY": "sk-REPLACE_ME"
+      }
+    }
+  }
+}

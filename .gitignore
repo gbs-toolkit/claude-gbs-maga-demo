@@ -1,0 +1,18 @@
+# Local Claude Code config — never commit (would leak API keys)
+.mcp.json
+
+# Source photo — third-party press image, fetched on demand
+assets/source/
+
+# GB Studio build artifacts
+gbsproj/maga/build/
+gbsproj/maga/cache/
+
+# Per-machine editor settings
+gbsproj/maga/project/user_settings.gbsres
+
+# OS / editor
+.DS_Store
+*.bak
+*.sav
+*.icloud
